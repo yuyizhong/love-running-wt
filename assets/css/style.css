@@ -8,7 +8,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 280;
     color:#3a3a3a;
 }
 
@@ -18,12 +18,42 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     color:#2e2c2c;
+    letter-spacing: 4px;
 }
 
 #logo {
     float: left;
     font-size:300%;
+    
+ }
 
+ #menu, #logo {
+    line-height: 75px;
  }
 
 
+#menu {
+    display: flex;   
+    justify-content: flex-end; 
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+       
+    list-style-type:none;
+    margin:30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color:rgb(238, 142, 26);
+}
+
+.active {
+    color:rgb(238, 142, 26);
+}
