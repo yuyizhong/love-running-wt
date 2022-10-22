@@ -8,7 +8,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 280;
+    font-weight: 300;
     color:#3a3a3a;
 }
 
@@ -23,7 +23,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size:300%;
+    font-size:280%;
     
  }
 
@@ -33,16 +33,15 @@ h1, h2 {
 
 
 #menu {
-    display: flex;   
-    justify-content: flex-end; 
+    
     font-size: 110%;
     letter-spacing: 4px;
 }
 
 #menu li {
-       
+    float: right;    
     list-style-type:none;
-    margin:30px;
+    margin-right: 30px
 }
 
 #menu a {
