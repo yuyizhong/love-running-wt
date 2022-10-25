@@ -223,6 +223,7 @@ hr {
 
 footer {
     height:150px;
+    clear:both;  
 }
 
 footer ul {
@@ -239,6 +240,22 @@ footer ul li i {
     margin:1%;
     padding:5%;
     color:#3a3a3a;
+}
+
+
+
+
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    width:100%;
+
+}
+
+#photos img{
+    width:100%;
 }
 
 
